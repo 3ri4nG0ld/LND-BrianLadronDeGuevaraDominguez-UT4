@@ -14,30 +14,14 @@
     <!-- Importamos las librerias de fontawesome -->
     <script src="https://kit.fontawesome.com/552fd2793d.js" crossorigin="anonymous"></script>
 
-    <style>
-        .nav-link:hover {
-            color: #BED1CF;
-        }
-        .PrimaryFColor{
-            color: #E78895;
-        }
-        .buttoncolor,.buttoncolor:hover{
-            background-color: #E78895;
-            color: #FFE4C9;
-        }
-        .buttoncolor:hover{
-            color:white
-        }
-        .SecondaryFColor{
-            color: #BED1CF;
-        }
-        .PrimaryBColor, body{
-            background-color: #FFF7F1;
-        }
-        .SecondaryBColor{
-            background-color: #FFE4C9;
-        }
-    </style>
+    <!-- Importamos fuentes Custom -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <!-- Estilos Custom -->
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body>
@@ -46,7 +30,7 @@
         <nav class="navbar navbar-expand-md navbar">
             <div class="container-fluid">
                 <img src="src/logo.png" style="width:60px">
-                <a class="navbar-brand" href="/">Pear</a>
+                <a class="navbar-brand TitleFont" href="/">Pear</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -84,7 +68,7 @@
         <div class="row align-items-center">
             <div class="col-md-6">
                 <center>
-                    <h2>IPear</h2>
+                    <h2 class="TitleFont">IPear</h2>
                     <p>Tu nueva marca de teléfonos inteligentes, pensados perfectamente para ofrecer el mismo producto
                         año tras año con el objetivo de sacarte hasta el último céntimo.</p>
                 </center>
@@ -109,7 +93,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="container">
-                    <h1>PearPhone 15</h1>
+                    <h1 class="TitleFont">PearPhone 15</h1>
                     <!-- Texto que para nada le he pedido a chatGPT que me genere -->
                     <p class="opacity-75">El PearPhone 15 es el último modelo de nuestra línea de teléfonos
                         inteligentes. Con una cámara de alta resolución, procesador ultrarrápido y diseño elegante, este
@@ -120,7 +104,7 @@
             </div>
             <div class="carousel-item">
                 <div class="container">
-                    <h1>PearPhone 15 X</h1>
+                    <h1 class="TitleFont">PearPhone 15 X</h1>
                     <p class="opacity-75">Descubre el PearPhone 15 X, un teléfono diseñado para aquellos que buscan
                         rendimiento y estilo. Con una pantalla de alta definición, batería de larga duración y funciones
                         avanzadas, el PearPhone 15 X es la elección perfecta para tu vida digital.</p>
@@ -130,7 +114,7 @@
             </div>
             <div class="carousel-item">
                 <div class="container">
-                    <h1>PearPhone 15 Pro X</h1>
+                    <h1 class="TitleFont">PearPhone 15 Pro X</h1>
                     <p class="opacity-75">El PearPhone 15 Pro X redefine la experiencia móvil con su diseño delgado y
                         potente rendimiento. Con características innovadoras y una interfaz intuitiva, el PearPhone 15
                         Pro X te ofrece todo lo que necesitas en un teléfono inteligente.</p>
@@ -233,6 +217,7 @@
             </div>
         </div>
     </section>
+
     <!-- Footer -->
     <footer class="d-flex flex-wrap justify-content-center align-items-center pt-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">
